@@ -161,7 +161,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 30vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -190,3 +190,37 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+blockquote {
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p {
+    padding: 15px;
+    text-align: center;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+p cite{
+  text-align: right;  
+}
+
+a img {
+  height: 200px;
+  border: solid 2px #d48a6e;
+  transition:all 1s;
+}
+
+a img:hover {
+ transform:scale(1.2);
+}
+
+
